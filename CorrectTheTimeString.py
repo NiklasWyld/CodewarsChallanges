@@ -21,10 +21,3 @@ def time_correct(t):
         m += 1
     
     return "{0:0>2}:{1:0>2}:{2:0>2}".format(h, m, s)
-
-print(time_correct(None))
-print(time_correct(''))
-print(time_correct(' 1'))
-print(time_correct('001122'))
-print(time_correct('14:59:93'))
-print(time_correct('24:01:01'))
